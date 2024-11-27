@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.LineBlack {
+    width: 100%;
+    max-width: 1360px;
+    height: 30px;
+    background-color: #000;
+    display: flex;
+    position: absolute;
+    top: 0; 
+    left: 49.9999% ;
+    transform: translateX(-50%);
+    transition: background-color 0.3s ease, height 0.3s ease;
+}
+
+.LineUl {
+    width: 100%; 
+    max-width: 1360px;
+    height: 55px;
+    background-color: #000;
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 49.9999%;
+    transform: translateX(-50%); 
+}
+
+.nomberP{
+    width: 287px !important;
+    font-size: 10px;
+    margin-left: -811px;
+    margin-top: 5px;
+    justify-content: start;
+    align-self: start;
+    align-items: start;
+    text-align: start;
+    font-size: 0.7rem;
+    color: #fff;
+    display: flex;
+}
+
+.porten {
+    width: 104px !important;
+    height: 12px;
+    top: 1px;
+    margin-left: 275px;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    
+}
+
+.porten2 {
+    font-family: Post No Bills Jaffna;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 53.82px;
+    top: 1px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+    display: flex;
+}
+
+.Login2{
+    width: 45px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #070606;
+    color: #fff;
+    border: none;
+    font-size: 0.7rem; 
+}
+
+.Login2 a {
+    color: #ffffff; 
+    text-decoration: none;
+    font-weight: bold; 
+    padding: 5px 10px;
+    background-color: #000; 
+    border-radius: 5px; 
+    display: inline-block; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+
+.span{
+    color: #fff;
+    margin-left: 1px;
+    display: flex;
+    font-size: 0.9rem; 
+    margin-top: 3px;
+    position: relative;    
+}
+
+.Register{
+    width: 45px;
+    height: 25px;
+    display: flex;
+    background-color: #070606;
+    color: #fff;
+    border: none;
+    font-size: 0.7rem; 
+}
+.Register a {
+    color: #ffffff; 
+    text-decoration: none;
+    font-weight: bold; 
+    padding: 5px 10px;
+    background-color: #000; 
+    border-radius: 5px; 
+    display: inline-block; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+.Register a:hover {
+    background-color: #444; 
+    transform: scale(1.05);
+    display: flex;
+}
+
+.exat{
+    width: 14px;
+    height: 14px;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 970px;
+    font-size: 0.7rem;
+}
+
+.HeaderUrl{
+    display: flex;
+}
+
+.UrlDiv{
+    width: 100% !important;
+    max-width: 860px;
+    display: flex;
+    position:absolute; 
+    font-size: 13px;
+    top:27px; 
+    left: 480px;
+    right: 30px; 
+    z-index: 1000; 
+    gap: 0px; 
+    margin: 0 auto;
+    margin-top: 13px;
+    justify-content: center;
+  }
+  
+.UrlDiv a {
+    color: #ffffff; 
+    text-decoration: none;
+    font-weight: bold; 
+    padding: 10px 20px;
+    background-color: #000; 
+    border-radius: 5px; 
+    display: inline-block; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+   
+
+.UrlDiv a:hover {
+    background-color: #444; 
+    transform: scale(1.05);
+    display: flex;
+}
+
+  .Like{
+    font-size: 17px;
+    
+  }
+
+  .Setting{
+    font-size: 17px;
+  }
